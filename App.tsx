@@ -1,20 +1,17 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 
 function App(): React.JSX.Element {
+  // ••••• reactotron •••••
+  if (__DEV__) {
+    import('./ReactotronConfig').then(() => null);
+  }
+
   return (
-    <View style={styles.container}>
+    <View>
       <Text>TEST</Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
 
 export default App;
