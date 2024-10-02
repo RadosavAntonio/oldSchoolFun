@@ -50,7 +50,6 @@
 		278918775E76C88A30DF7189 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = oldSchoolFun/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-oldSchoolFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oldSchoolFun.debug.xcconfig"; path = "Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-oldSchoolFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oldSchoolFun.release.xcconfig"; path = "Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun.release.xcconfig"; sourceTree = "<group>"; };
-		5A6F254C2CADF9590061DC75 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		5AE56CBB2CADEBB30073CCCC /* oldSchoolFunDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oldSchoolFunDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE56CBD2CADEBE30073CCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/antonioradosav/oldSchoolFun/ios/oldSchoolFunDev/Info.plist; sourceTree = "<absolute>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-oldSchoolFun-oldSchoolFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oldSchoolFun-oldSchoolFunTests.debug.xcconfig"; path = "Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,7 +153,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				5A6F254C2CADF9590061DC75 /* Config.xcconfig */,
 				5AD90A2D2CADEAA800BFD7A2 /* oldSchoolFunDev */,
 				13B07FAE1A68108700A75B9A /* oldSchoolFun */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
