@@ -22,13 +22,16 @@
     "startReset": "yarn start -- --reset-cache",
     "node:clean": "rm -rf node_modules&& yarn cache clean && yarn install",
     "setDevelopment": "ENVFILE=.env.dev",
-    "setProduction": "ENVFILE=.env.prod"
+    "setProduction": "ENVFILE=.env.prod",
+    "ios:prod": "yarn setProduction && npx react-native run-ios",
+    "ios:dev": "yarn setDevelopment && npx react-native run-ios --scheme oldSchoolFunDev"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.0.0",
     "lodash": "^4.17.21",
     "react": "18.3.1",
     "react-native": "0.75.3",
+    "react-native-config": "^1.5.3",
     "reactotron-react-native": "^5.1.8",
     "reactotron-redux": "^3.1.10"
   },

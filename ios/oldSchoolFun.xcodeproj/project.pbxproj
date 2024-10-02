@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* oldSchoolFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* oldSchoolFunTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-oldSchoolFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-oldSchoolFun.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3E3401E9911381AE28635B43 /* libPods-App-oldSchoolFunDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3BEF2A4F700A19AB9D169 /* libPods-App-oldSchoolFunDev.a */; };
 		4E930DA62D44EB0F7320C1A2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 278918775E76C88A30DF7189 /* PrivacyInfo.xcprivacy */; };
-		7699B88040F8A987B510C191 /* libPods-oldSchoolFun-oldSchoolFunTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-oldSchoolFun-oldSchoolFunTests.a */; };
+		57DB2137822AC231CE0F9CFA /* libPods-App-oldSchoolFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C2D1D865728304247865C0 /* libPods-App-oldSchoolFun.a */; };
+		5AE56CAD2CADEBB30073CCCC /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		5AE56CAE2CADEBB30073CCCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5AE56CB22CADEBB30073CCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		5AE56CB32CADEBB30073CCCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		5AE56CB42CADEBB30073CCCC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 278918775E76C88A30DF7189 /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D911E1F7F234A2A83F05989E /* libPods-App-oldSchoolFun-oldSchoolFunTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E89EED995BC5840E394F698 /* libPods-App-oldSchoolFun-oldSchoolFunTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005FCC78B2E32640E95F7DDA /* Pods-App-oldSchoolFunDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-oldSchoolFunDev.release.xcconfig"; path = "Target Support Files/Pods-App-oldSchoolFunDev/Pods-App-oldSchoolFunDev.release.xcconfig"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* oldSchoolFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oldSchoolFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* oldSchoolFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oldSchoolFunTests.m; sourceTree = "<group>"; };
+		0B5672809BA933EF6656C61A /* Pods-App-oldSchoolFun-oldSchoolFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-oldSchoolFun-oldSchoolFunTests.release.xcconfig"; path = "Target Support Files/Pods-App-oldSchoolFun-oldSchoolFunTests/Pods-App-oldSchoolFun-oldSchoolFunTests.release.xcconfig"; sourceTree = "<group>"; };
+		0C96D91B8801266BA5D41629 /* Pods-App-oldSchoolFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-oldSchoolFun.debug.xcconfig"; path = "Target Support Files/Pods-App-oldSchoolFun/Pods-App-oldSchoolFun.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* oldSchoolFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oldSchoolFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = oldSchoolFun/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = oldSchoolFun/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,14 +47,21 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = oldSchoolFun/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = oldSchoolFun/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = oldSchoolFun/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-oldSchoolFun-oldSchoolFunTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-oldSchoolFun-oldSchoolFunTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		278918775E76C88A30DF7189 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = oldSchoolFun/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		278918775E76C88A30DF7189 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = oldSchoolFun/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-oldSchoolFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oldSchoolFun.debug.xcconfig"; path = "Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-oldSchoolFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oldSchoolFun.release.xcconfig"; path = "Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun.release.xcconfig"; sourceTree = "<group>"; };
+		5A6F254C2CADF9590061DC75 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		5AE56CBB2CADEBB30073CCCC /* oldSchoolFunDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oldSchoolFunDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE56CBD2CADEBE30073CCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/antonioradosav/oldSchoolFun/ios/oldSchoolFunDev/Info.plist; sourceTree = "<absolute>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-oldSchoolFun-oldSchoolFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oldSchoolFun-oldSchoolFunTests.debug.xcconfig"; path = "Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-oldSchoolFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-oldSchoolFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D3BEF2A4F700A19AB9D169 /* libPods-App-oldSchoolFunDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-oldSchoolFunDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = oldSchoolFun/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-oldSchoolFun-oldSchoolFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oldSchoolFun-oldSchoolFunTests.release.xcconfig"; path = "Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E89EED995BC5840E394F698 /* libPods-App-oldSchoolFun-oldSchoolFunTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-oldSchoolFun-oldSchoolFunTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB234EB08EFF43F33710A10 /* Pods-App-oldSchoolFun-oldSchoolFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-oldSchoolFun-oldSchoolFunTests.debug.xcconfig"; path = "Target Support Files/Pods-App-oldSchoolFun-oldSchoolFunTests/Pods-App-oldSchoolFun-oldSchoolFunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDD8B4036FBB2C25685AABD6 /* Pods-App-oldSchoolFunDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-oldSchoolFunDev.debug.xcconfig"; path = "Target Support Files/Pods-App-oldSchoolFunDev/Pods-App-oldSchoolFunDev.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C2D1D865728304247865C0 /* libPods-App-oldSchoolFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-oldSchoolFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E810603255FEAD4ED2F33118 /* Pods-App-oldSchoolFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-oldSchoolFun.release.xcconfig"; path = "Target Support Files/Pods-App-oldSchoolFun/Pods-App-oldSchoolFun.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -54,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-oldSchoolFun-oldSchoolFunTests.a in Frameworks */,
+				D911E1F7F234A2A83F05989E /* libPods-App-oldSchoolFun-oldSchoolFunTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +78,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-oldSchoolFun.a in Frameworks */,
+				57DB2137822AC231CE0F9CFA /* libPods-App-oldSchoolFun.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE56CAF2CADEBB30073CCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3401E9911381AE28635B43 /* libPods-App-oldSchoolFunDev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,10 +129,19 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-oldSchoolFun.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-oldSchoolFun-oldSchoolFunTests.a */,
+				C0C2D1D865728304247865C0 /* libPods-App-oldSchoolFun.a */,
+				8E89EED995BC5840E394F698 /* libPods-App-oldSchoolFun-oldSchoolFunTests.a */,
+				79D3BEF2A4F700A19AB9D169 /* libPods-App-oldSchoolFunDev.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AD90A2D2CADEAA800BFD7A2 /* oldSchoolFunDev */ = {
+			isa = PBXGroup;
+			children = (
+				5AE56CBD2CADEBE30073CCCC /* Info.plist */,
+			);
+			path = oldSchoolFunDev;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -121,6 +154,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5A6F254C2CADF9590061DC75 /* Config.xcconfig */,
+				5AD90A2D2CADEAA800BFD7A2 /* oldSchoolFunDev */,
 				13B07FAE1A68108700A75B9A /* oldSchoolFun */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* oldSchoolFunTests */,
@@ -138,6 +173,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* oldSchoolFun.app */,
 				00E356EE1AD99517003FC87E /* oldSchoolFunTests.xctest */,
+				5AE56CBB2CADEBB30073CCCC /* oldSchoolFunDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +185,12 @@
 				5709B34CF0A7D63546082F79 /* Pods-oldSchoolFun.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-oldSchoolFun-oldSchoolFunTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-oldSchoolFun-oldSchoolFunTests.release.xcconfig */,
+				0C96D91B8801266BA5D41629 /* Pods-App-oldSchoolFun.debug.xcconfig */,
+				E810603255FEAD4ED2F33118 /* Pods-App-oldSchoolFun.release.xcconfig */,
+				BBB234EB08EFF43F33710A10 /* Pods-App-oldSchoolFun-oldSchoolFunTests.debug.xcconfig */,
+				0B5672809BA933EF6656C61A /* Pods-App-oldSchoolFun-oldSchoolFunTests.release.xcconfig */,
+				BDD8B4036FBB2C25685AABD6 /* Pods-App-oldSchoolFunDev.debug.xcconfig */,
+				005FCC78B2E32640E95F7DDA /* Pods-App-oldSchoolFunDev.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -198,6 +240,27 @@
 			productReference = 13B07F961A680F5B00A75B9A /* oldSchoolFun.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5AE56CAA2CADEBB30073CCCC /* oldSchoolFunDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE56CB82CADEBB30073CCCC /* Build configuration list for PBXNativeTarget "oldSchoolFunDev" */;
+			buildPhases = (
+				5AE56CAB2CADEBB30073CCCC /* [CP] Check Pods Manifest.lock */,
+				5AE56CAC2CADEBB30073CCCC /* Sources */,
+				5AE56CAF2CADEBB30073CCCC /* Frameworks */,
+				5AE56CB12CADEBB30073CCCC /* Resources */,
+				5AE56CB52CADEBB30073CCCC /* Bundle React Native code and images */,
+				5AE56CB62CADEBB30073CCCC /* [CP] Embed Pods Frameworks */,
+				5AE56CB72CADEBB30073CCCC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oldSchoolFunDev;
+			productName = oldSchoolFun;
+			productReference = 5AE56CBB2CADEBB30073CCCC /* oldSchoolFunDev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -230,6 +293,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* oldSchoolFun */,
 				00E356ED1AD99517003FC87E /* oldSchoolFunTests */,
+				5AE56CAA2CADEBB30073CCCC /* oldSchoolFunDev */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +313,16 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				4E930DA62D44EB0F7320C1A2 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE56CB12CADEBB30073CCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE56CB22CADEBB30073CCCC /* LaunchScreen.storyboard in Resources */,
+				5AE56CB32CADEBB30073CCCC /* Images.xcassets in Resources */,
+				5AE56CB42CADEBB30073CCCC /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,15 +351,87 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun/Pods-App-oldSchoolFun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun/Pods-App-oldSchoolFun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun/Pods-App-oldSchoolFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE56CAB2CADEBB30073CCCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-oldSchoolFunDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE56CB52CADEBB30073CCCC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		5AE56CB62CADEBB30073CCCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFunDev/Pods-App-oldSchoolFunDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFunDev/Pods-App-oldSchoolFunDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFunDev/Pods-App-oldSchoolFunDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE56CB72CADEBB30073CCCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFunDev/Pods-App-oldSchoolFunDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFunDev/Pods-App-oldSchoolFunDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFunDev/Pods-App-oldSchoolFunDev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -303,7 +449,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-oldSchoolFun-oldSchoolFunTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-oldSchoolFun-oldSchoolFunTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -325,7 +471,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-oldSchoolFun-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-oldSchoolFun-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -338,15 +484,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun-oldSchoolFunTests/Pods-App-oldSchoolFun-oldSchoolFunTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun-oldSchoolFunTests/Pods-App-oldSchoolFun-oldSchoolFunTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun-oldSchoolFunTests/Pods-App-oldSchoolFun-oldSchoolFunTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -355,15 +501,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun/Pods-App-oldSchoolFun-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun/Pods-App-oldSchoolFun-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun/Pods-oldSchoolFun-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun/Pods-App-oldSchoolFun-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -372,15 +518,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun-oldSchoolFunTests/Pods-App-oldSchoolFun-oldSchoolFunTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun-oldSchoolFunTests/Pods-App-oldSchoolFun-oldSchoolFunTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oldSchoolFun-oldSchoolFunTests/Pods-oldSchoolFun-oldSchoolFunTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-oldSchoolFun-oldSchoolFunTests/Pods-App-oldSchoolFun-oldSchoolFunTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -403,6 +549,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5AE56CAC2CADEBB30073CCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE56CAD2CADEBB30073CCCC /* AppDelegate.mm in Sources */,
+				5AE56CAE2CADEBB30073CCCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -416,7 +571,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-oldSchoolFun-oldSchoolFunTests.debug.xcconfig */;
+			baseConfigurationReference = BBB234EB08EFF43F33710A10 /* Pods-App-oldSchoolFun-oldSchoolFunTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -443,7 +598,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-oldSchoolFun-oldSchoolFunTests.release.xcconfig */;
+			baseConfigurationReference = 0B5672809BA933EF6656C61A /* Pods-App-oldSchoolFun-oldSchoolFunTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -467,13 +622,16 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-oldSchoolFun.debug.xcconfig */;
+			baseConfigurationReference = 0C96D91B8801266BA5D41629 /* Pods-App-oldSchoolFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZV4322FZ4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = oldSchoolFun/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Old School Fun";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +642,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldschoolfun.prod;
 				PRODUCT_NAME = oldSchoolFun;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -494,12 +652,15 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-oldSchoolFun.release.xcconfig */;
+			baseConfigurationReference = E810603255FEAD4ED2F33118 /* Pods-App-oldSchoolFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZV4322FZ4;
 				INFOPLIST_FILE = oldSchoolFun/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Old School Fun";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,8 +671,66 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldschoolfun.prod;
 				PRODUCT_NAME = oldSchoolFun;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		5AE56CB92CADEBB30073CCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD8B4036FBB2C25685AABD6 /* Pods-App-oldSchoolFunDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZV4322FZ4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = oldSchoolFunDev/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Old School Fun Dev";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldschoolfun.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		5AE56CBA2CADEBB30073CCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005FCC78B2E32640E95F7DDA /* Pods-App-oldSchoolFunDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZV4322FZ4;
+				INFOPLIST_FILE = oldSchoolFunDev/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Old School Fun Dev";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldschoolfun.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -590,10 +809,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -666,10 +882,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -694,6 +907,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE56CB82CADEBB30073CCCC /* Build configuration list for PBXNativeTarget "oldSchoolFunDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE56CB92CADEBB30073CCCC /* Debug */,
+				5AE56CBA2CADEBB30073CCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
