@@ -8,5 +8,6 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'off',
     'react/no-unstable-nested-components': 'off',
     'react-native/no-unused-styles': 2,
+    'object-curly-spacing': ['error', 'always'],
   },
-};
+}
