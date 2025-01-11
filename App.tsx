@@ -1,16 +1,20 @@
 import { doc, getDoc } from 'firebase/firestore'
 import React, { useEffect } from 'react'
 import { View } from 'react-native'
+import config from 'react-native-config'
 import { db } from './firebase'
 import { Main } from './src/screens/main'
 
 function App(): React.JSX.Element {
-  // ••••• reactotron •••••
-  if (__DEV__) {
-    import('./ReactotronConfig').then(() => null)
-  }
-
   useEffect(() => {
+    // ••••• reactotron •••••
+    if (__DEV__) {
+      import('./ReactotronConfig').then(() => null)
+    }
+    // ----- REACTOTRON LOGS -----
+    const CONFIG_TYPE = config.ENV ?? 'NONE'
+    console.log(`----- ⭐️ mode: ${CONFIG_TYPE.toUpperCase()} ⭐️ -----`)
+
     async function getAppVersion() {
       try {
         // Create a reference to the specific document
